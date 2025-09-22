@@ -1,7 +1,7 @@
 # Semantic Hotel Likeability Ranker
 ##### Usage of Gen AI features of Bigquery AI
 
-## Introduction: 
+## Notebook Introduction: 
 
 This notebook builds a  using BigQuery + Vertex AI text embeddings. It runs a one-off backend step to create hotel-level “master” embeddings and a vector index in BigQuery, then simulates a frontend journey for specific users: fetch their past reviews, produce a query embedding that reflects what they liked, perform a vector search over hotel embeddings, re-rank results, and visualize why the top hotels match their historical preferences.
 
@@ -19,12 +19,12 @@ This notebook builds a  using BigQuery + Vertex AI text embeddings. It runs a on
 8. Ranking and scoring (Ranker)
 9. Visualization and explainability (Visualizer)
 
-## Responsibilities:
+## Notebook Responsibilities:
 - Execute the full personalized hotel recommendation flow.
 - Ensure outputs are explainable and validated.
 - Provide a single entry point for notebooks.
 
-## Includes simulation of various user journeys:
+## Notebook includes simulation of various user journeys:
 
 ### User 1: which has only 1 previous review and travelling to a same previous city again.
 
