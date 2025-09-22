@@ -26,15 +26,15 @@ This notebook builds a  using BigQuery + Vertex AI text embeddings. It runs a on
 
 ## Notebook includes simulation of various user journeys:
 
-### User 1: which has only 1 previous review and travelling to a same previous city again.
+##### User 1: which has only 1 previous review and travelling to a same previous city again.
 
 Expectation: Hotels should be suggested based on the review and hotels should be boosted up that matches the user profile.
 
-### User 2: which has 2-3 previous reviews for multiple destinations but travelling to a previous travelled destination.
+##### User 2: which has 2-3 previous reviews for multiple destinations but travelling to a previous travelled destination.
 
 Expectation: Hotels should be suggested based on the combination of previous reviews and hotels should be boosted up that matches the user profile.
 
-### User 3: which has many reviews for a specific desination but is now travelling to a new city.
+##### User 3: which has many reviews for a specific desination but is now travelling to a new city.
 
 Expectation: Hotels should be suggested based on the combination of previous reviews that matches the semantic similarity with the hotels in the new destination and hotels should be boosted up that matches the user profile.
 
