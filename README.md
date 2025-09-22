@@ -62,3 +62,20 @@ This smarter, intent-driven approach is a win-win.
 -- For travellers: Less stress, less time spent, and more confidence in every booking.
 -- For OTAs: Visible drop in cart abandonment, better conversion rates, lower acquisition costs, and stronger profit margins boosted by increased customer loyalty.
 Instead of being just another site in an endless list of tabs, with the hotel likeability ranker, an OTA can become the go-to destination, standing out in a crowded market.
+
+## Screenshots
+#### Processed Raw Master Data  
+![processed_raw_data ](https://github.com/rbokolia/Semantic_Hotel_Likeability_Ranker/blob/main/screenshots/2.processed_raw_data.png?raw=true)
+
+#### Master Embeddings Data
+![master_embeddings](https://github.com/rbokolia/Semantic_Hotel_Likeability_Ranker/blob/main/screenshots/master_embeddings.png?raw=true)
+
+#### Resultant hotels via semantic search vs hotels ranked via overall review
+###### This also includes **User Profile** view along with the **dynamically generated user preferences**  from previous reviews
+![ranked_hotels](https://github.com/rbokolia/Semantic_Hotel_Likeability_Ranker/blob/main/screenshots/5.user_profile_and_personalized_ranked_hotels.png?raw=true)
+
+#### Graphs
+![graphs](https://github.com/rbokolia/Semantic_Hotel_Likeability_Ranker/blob/main/screenshots/9.graphs.png?raw=true)
+
+
+
